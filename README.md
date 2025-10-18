@@ -3,9 +3,8 @@
 A compact image classification project with training scripts (Python) and a simple web demo (HTML/CSS/JS). Designed for quick experiments and easy extension.
 
 ## Instances
-    ![Project Screenshot](https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER/blob/90e6645db5eb6e641d43b5ef3b56bd888d52cd82/IMAGES-OF-PROJECT/Scre.png)
-
-![Project Screenshot][IMAGES-OF-PROJECT/Screenshot_2025-10-18_122108.png](https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER/blob/90e6645db5eb6e641d43b5ef3b56bd888d52cd82/IMAGES-OF-PROJECT/Scre.png)
+    
+![Sample Image](https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER/raw/7216a5be0f81cf5cc3db41e96c1cde424c8d14db/IMAGES-OF-PROJECT/Scre.png)
 
 
 
