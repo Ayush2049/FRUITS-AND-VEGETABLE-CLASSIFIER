@@ -2,6 +2,9 @@
 
 A compact image classification project with training scripts (Python) and a simple web demo (HTML/CSS/JS). Designed for quick experiments and easy extension.
 
+## Instances
+    ![Sample Image](images/sample.png)
+
 ## Quick start
 1. Clone:
    git clone https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER.git
