@@ -3,7 +3,7 @@
 A compact image classification project with training scripts (Python) and a simple web demo (HTML/CSS/JS). Designed for quick experiments and easy extension.
 
 ## Instances
-    ![Project Screenshot](IMAGES-OF-PROJECT/Screenshot_2025-10-18_122108.png)
+    ![Project Screenshot](IMAGES-OF-PROJECT/Scre.png)
 
 
 
