@@ -4,7 +4,7 @@ A compact image classification project with training scripts (Python) and a simp
 
 ## Instances
     
-![Sample Image](https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER/raw/7216a5be0f81cf5cc3db41e96c1cde424c8d14db/IMAGES-OF-PROJECT/Scre.png)
+![Project Screenshot](https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER/raw/1c8fcaa8109090d4a0f0a10e4700627470c8cf49/Project-Instances/Screenshot%202025-10-19%20014753.png)
 
 
 
