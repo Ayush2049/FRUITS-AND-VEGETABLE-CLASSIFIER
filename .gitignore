@@ -1,0 +1,9 @@
+﻿*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+Fruits_Vegetables/
+ayush/
+__pycache__/
+*.pyc
