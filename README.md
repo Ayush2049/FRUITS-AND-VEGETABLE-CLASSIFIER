@@ -50,7 +50,6 @@ pip install -r requirements.txt
 python app.py
 
 
-
 ## Quick start
 1. Clone:
    git clone https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER.git
@@ -64,14 +63,13 @@ python app.py
    python predict.py --model ./checkpoints/best.pth --image examples/apple.jpg
 5. Web demo:
    Open web/index.html or run the Node demo in web/ (npm install && npm start) if present.
-
-
+---
 ## Contributing
 Fork, add a focused change, and open a PR. Add a short note in the README for new scripts or features.
 
 ## License
 all rights reserved by @Ayush2049
-
+---
 ## 📬 Contact Me
 
 I'm always open to connecting, collaborating, or answering questions about my projects.  
