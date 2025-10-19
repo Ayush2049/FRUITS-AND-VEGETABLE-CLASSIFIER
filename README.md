@@ -29,7 +29,6 @@ A compact image classification project with training scripts (Python) and a simp
 - GPU recommended for training
 
 ## Project layout (typical)
-- data/          dataset (not included)
 - models/        saved checkpoints
 - src/ or app/   training & inference code
 - web/           front-end demo
