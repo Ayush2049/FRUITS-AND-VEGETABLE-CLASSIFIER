@@ -1,6 +1,7 @@
-# Fruits and Vegetables Classifier
+# 🍎 Fruits & Vegetables Image Classifier
 
-A compact image classification project with training scripts (Python) and a simple web demo (HTML/CSS/JS). Designed for quick experiments and easy extension.
+A simple **image classification project** that recognizes fruits and vegetables using a **TensorFlow Keras model**, a **Flask backend**, and a **React frontend**.
+
 
 ## Instances
     
@@ -8,6 +9,47 @@ A compact image classification project with training scripts (Python) and a simp
 
 ![Project Screenshot](https://github.com/Ayush2049/FRUITS-AND-VEGETABLE-CLASSIFIER/blob/0beb3baebf30a53fc7297add2c7d0efe0cb12b0a/Project-Instances/Screenshot%202025-10-19%20014836.png
 )
+
+---
+
+## 🗂️ Project Structure
+
+- `app.py` – Flask API for predictions, health check, and categories.  
+- `multiple-image-classification.keras` – Trained Keras model.  
+- `Fruits_Vegetables/` – Dataset split into `train/`, `validation/`, `test/`.  
+- `frontend/image-clasi/` – React frontend for image upload and results.  
+- `requirements.txt` – Python dependencies.  
+
+---
+
+## ⚡ Features
+
+- Multi-class classification of fruits and vegetables  
+- Flask backend serving `/predict`, `/health`, `/categories`  
+- React frontend with image upload, preview, and prediction display  
+- Returns top predictions with confidence scores  
+
+---
+
+## 🧠 How It Works
+
+1. **Input:** Image uploaded via React frontend  
+2. **Preprocessing:** Convert to RGB → Resize to 180x180 → Expand dims  
+3. **Model:** `multiple-image-classification.keras` predicts class probabilities  
+4. **Output:** Frontend displays predicted class and top predictions  
+
+---
+
+## ⚙️ Setup & Installation
+
+**Backend (Flask):**
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python app.py
+
+
 
 ## Quick start
 1. Clone:
@@ -23,22 +65,6 @@ A compact image classification project with training scripts (Python) and a simp
 5. Web demo:
    Open web/index.html or run the Node demo in web/ (npm install && npm start) if present.
 
-## Requirements
-- Python 3.8+
-- pip (and Node.js for the web demo)
-- GPU recommended for training
-
-## Project layout (typical)
-- models/        saved checkpoints
-- src/ or app/   training & inference code
-- web/           front-end demo
-- examples/      sample images
-- train.py, predict.py, requirements.txt
-
-## Notes on improving accuracy
-- Use transfer learning (ResNet, EfficientNet, MobileNet).
-- Apply augmentations, class balancing, and LR schedules.
-- Increase input resolution if resources allow.
 
 ## Contributing
 Fork, add a focused change, and open a PR. Add a short note in the README for new scripts or features.
